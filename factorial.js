@@ -6,6 +6,4 @@ const factorial = (numero) => {
     return numero * factorial(numero - 1);
 };
 
-console.log(factorial(0));
-
 module.exports = factorial;
