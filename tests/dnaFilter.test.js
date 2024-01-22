@@ -2,7 +2,7 @@ const dnaFilter = require('../dna');
 
 describe('DNA filter function test', () => {
     it('Should remove any non-canonical DNA bases.', () => {
-        const dna = 'CTAbmnnbmnbmGGGTA'
+        const dna = 'CTAbmnnbmnbmGGGTA';
         expect(dnaFilter(dna)).toEqual('CTAGGGTA');
     })
 
